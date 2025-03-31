@@ -7,10 +7,7 @@ import SignupPage from "./pages/SignupPage";
 import ProfilePage from "./pages/ProfilePage";
 import { useAuthStore } from "./store/useAuthStore";
 import PageLoader from "./components/LoadingAnimations/PageLoader";
-
 import { ToastContainer } from "react-toastify";
-
-import ThemePage from "./pages/ThemePage";
 import AuthRoute from "./components/Auth/AuthRoute";
 import ProtectedRoute from "./components/Auth/ProtectedRoute";
 
@@ -41,7 +38,6 @@ const App = () => {
         <Route element={<ProtectedRoute />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/profile" element={<ProfilePage />} />
-          <Route path="theme" element={<ThemePage />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
