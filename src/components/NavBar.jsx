@@ -30,7 +30,7 @@ const NavBar = () => {
               <div className="size-16 rounded-lg bg-primary/10 flex items-center justify-center">
                 {/* <MessageSquare className="w-5 h-5 text-primary" /> */}
                 <img
-                  src="src\assets\chat-app9.webp"
+                  src="/images/chat-app9.webp"
                   className="min-w-full bg-contain"
                   alt="Image"
                 />
