@@ -101,7 +101,7 @@ const LoginPage = () => {
                   className="size-10 text-blue-500"
                 /> */}
                     <img
-                      src="src\assets\chat-app9.webp"
+                      src="/images/chat-app9.webp"
                       className="min-w-full bg-contain"
                       alt="Image"
                     />

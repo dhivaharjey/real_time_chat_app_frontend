@@ -13,7 +13,7 @@ const NoChatSelected = () => {
              justify-center animate-bounce"
             >
               {/* <MessageSquare className="w-8 h-8 text-primary " /> */}
-              <img src="src\assets\chat-app14.webp" />
+              <img src="/images/chat-app14.webp" />
             </div>
           </div>
         </div>
