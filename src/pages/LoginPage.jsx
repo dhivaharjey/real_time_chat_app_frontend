@@ -183,7 +183,7 @@ const LoginPage = () => {
           {/* right */}
           <div className="hidden lg:block min-h-[100dvh]">
             <img
-              src="src\assets\chat-app15.webp"
+              src="/images/chat-app15.webp"
               className="min-h-[100dvh] min-w-full"
               alt="Image"
             />
