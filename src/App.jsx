@@ -10,14 +10,13 @@ import PageLoader from "./components/LoadingAnimations/PageLoader";
 
 import { ToastContainer } from "react-toastify";
 
-import { useThemeStore } from "./store/useThemeStore";
 import ThemePage from "./pages/ThemePage";
 import AuthRoute from "./components/Auth/AuthRoute";
 import ProtectedRoute from "./components/Auth/ProtectedRoute";
 
 const App = () => {
   const { checkAuth, authUser, isCheckingUserAuth } = useAuthStore();
-  const { theme } = useThemeStore();
+
   // console.log(onlineUsers);
 
   useEffect(() => {
@@ -31,7 +30,7 @@ const App = () => {
     );
   }
   return (
-    <div data-theme={theme}>
+    <div>
       <ToastContainer autoClose={3000} />
       {authUser && <NavBar />}
       <Routes>

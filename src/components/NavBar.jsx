@@ -1,8 +1,7 @@
 import React from "react";
 import { useAuthStore } from "../store/useAuthStore";
 import { Link } from "react-router-dom";
-import { LogOut, Palette, User } from "lucide-react";
-import { useThemeStore } from "../store/useThemeStore";
+import { LogOut, User } from "lucide-react";
 import { googleLogout } from "@react-oauth/google";
 import { useChatStore } from "../store/useChatStore";
 
