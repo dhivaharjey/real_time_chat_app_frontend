@@ -39,7 +39,9 @@ const ChatSidebar = () => {
               <span className="text-sm hidden lg:flex"> Online Users</span>
             </label>
             <span className="text-[8px] text-zinc-500 lg:hidden ">Online</span>
-            <span className="hidden lg:flex">({onlineUsers?.length})</span>
+            <span className="hidden lg:flex">
+              {onlineUsers.length > 0 && onlineUsers?.length - 1}
+            </span>
           </div>
         </div>
         <div className="overflow-y-auto w-full py-3">
