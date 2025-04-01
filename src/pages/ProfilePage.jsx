@@ -15,7 +15,7 @@ const ProfilePage = () => {
 
   return (
     <>
-      <div className="h-[100vh] pt-20  ">
+      <div className="h-[100vh] pt-20 bg-slate-100 ">
         <div className="max-w-2xl mx-auto p-4 ">
           <div className="bg-base-300 rounded-xl p-6 relative ">
             <Link to="/" className="absolute top-4 right-4 text-zinc-600">

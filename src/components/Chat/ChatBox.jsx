@@ -45,7 +45,7 @@ const ChatBox = () => {
   }
 
   return (
-    <div className="flex flex-1  flex-col overflow-auto  ">
+    <div className="flex flex-1  flex-col overflow-auto bg-white  ">
       <ChatHeader />
       <div
         className=" flex-1 overflow-y-auto scroll-smooth scrollbar-hide p-4 space-y-4"

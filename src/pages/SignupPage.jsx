@@ -102,8 +102,8 @@ const SignupPage = () => {
       ) : (
         <>
           <div
-            className="min-h-screen grid lg:grid-cols-2 bg-[#9fd3c7] bg-base-200
-    scrollbar-hide
+            className="min-h-screen grid lg:grid-cols-2  bg-base-200
+    scrollbar-hide bg-[#9fd3c7]
      "
           >
             {/* left */}
